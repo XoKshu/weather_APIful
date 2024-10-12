@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Clima</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta Clima</h1>
+        <form id="weatherForm">
+            <input type="text" id="lat" placeholder="Latitud" required>
+            <input type="text" id="lon" placeholder="Longitud" required>
+            <button type="submit">Obtener Clima</button>
+        </form>
+        <div id="errorMessage" class="error-message"></div>
+        <div class="results-container">
+            <div id="weatherResult"></div>
+            <div id="map"></div> <!-- Mapa se mantendrá aquí -->
+        </div>
+        <h2>Historial de Consultas</h2>
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>Ciudad</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                    <th>Temperatura</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id="historyBody"></tbody>
+        </table>
+        <button id="clearHistoryBtn">Limpiar Historial</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>

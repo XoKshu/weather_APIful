@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #ecf0f1;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 45%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.error-message {
+    color: red;
+}
+
+.results-container {
+    display: flex; /* Usar flexbox para el diseño */
+    justify-content: space-between; /* Espacio entre elementos */
+    margin-top: 20px;
+}
+
+#weatherResult {
+    width: 60%; /* Ajustar el ancho del resultado del clima */
+}
+
+#map {
+    height: 300px; /* Altura del mapa */
+    width: 500px; /* Ancho del mapa */
+    margin-left: 20px; /* Espacio entre el clima y el mapa */
+    border: 1px solid #ddd; /* Borde para definir el mapa */
+    border-radius: 5px; /* Bordes redondeados para el mapa */
+}
+  
+.card {
+    background: #013e67;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 50%; /* Ajuste del ancho de la tarjeta */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9;
+}
+
+td {
+    background-color: #34495e;
+}
