@@ -1,4 +1,4 @@
-# Weather API Project
+8# Weather API Project
 
 Este proyecto es una aplicación web para consultar datos del clima de cualquier ubicación en el mundo utilizando la API de OpenWeather. La aplicación permite ingresar las coordenadas (latitud y longitud) para obtener información meteorológica en tiempo real. También cuenta con un historial de consultas y un mapa interactivo que muestra la ubicación correspondiente.
 
@@ -34,12 +34,4 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 - Node.js (v14+).
 - Redis.
-- Una cuenta en [OpenWeather](https://openweathermap.org/) para obtener una API Key.
-
-## Instalación
-
-1. Clona el repositorio a tu máquina local:
-
-   ```bash
-   git clone https://github.com/tu_usuario/nombre_repositorio.git
-   cd nombre_repositorio
+- Una cuenta en [OpenWeather](https://openweathermap.org/) para obtener una API KEY
