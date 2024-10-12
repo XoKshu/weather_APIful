@@ -1,4 +1,4 @@
-8# Weather API Project
+Weather API Project
 
 Este proyecto es una aplicación web para consultar datos del clima de cualquier ubicación en el mundo utilizando la API de OpenWeather. La aplicación permite ingresar las coordenadas (latitud y longitud) para obtener información meteorológica en tiempo real. También cuenta con un historial de consultas y un mapa interactivo que muestra la ubicación correspondiente.
 
